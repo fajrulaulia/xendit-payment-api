@@ -3,9 +3,9 @@ require('dotenv').config()
 
 const conn=mysql.createConnection({
     host:'remotemysql.com',
-    user:'AcjlSpOAP9',
-    password:'oQ0Uvz3oGr',
-    database:'AcjlSpOAP9'
+    user:'milos',
+    password:'milos123',
+    database:'milosdb'
 })
 
 module.exports=conn
